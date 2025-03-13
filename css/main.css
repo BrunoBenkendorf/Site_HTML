@@ -6,7 +6,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('imagens/imagemfundo.jpg'); 
+    background-image: url('imagens/telainicial.jpg'); 
     background-size: cover;  
     background-position: center; 
     background-attachment: fixed; 
