@@ -23,6 +23,18 @@ function login() {
     }
 }
 
+// Adiciona evento de tecla Enter no campo de senha
+document.addEventListener("DOMContentLoaded", function() {
+    const passwordInput = document.getElementById("password");
+    if (passwordInput) {
+        passwordInput.addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                login(); // Chama a função de login
+            }
+        });
+    }
+});
+
 function verificarLogin() {
     const estaLogado = localStorage.getItem("loggedIn") === "true";
     const loginBtn = document.getElementById("login-btn");
@@ -38,7 +50,7 @@ function verificarLogin() {
 
 function logout() {
     localStorage.removeItem("loggedIn");
-    window.location.href = "home.html"; 
+    window.location.href = "home.html";
 }
 
 document.addEventListener("DOMContentLoaded", verificarLogin);
