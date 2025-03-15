@@ -37,7 +37,8 @@ Este é um projeto simples de cadastro de clientes e produtos utilizando HTML, C
 
 ## Como Usar
 
-1. Abra `login.html` em um navegador e autenticar-se.
+1. Abra ``home.html`` em um navegador.
+2. Após isso ele ira direcionar para o `login.html` onde será realizado o login e a autenticação.
 3. Após o login bem-sucedido, você poderá acessar as páginas de cadastro em `home.html`.
 4. Clique em "Cadastrar Cliente" para acessar `index.html` e preencher o formulário.
 5. Clique em "Cadastrar Produtos" para acessar `produto.html` e preencher os dados do produto.
