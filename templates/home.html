@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +10,24 @@
     <div class="container">
         <h2>BEM VINDO AO SITE!</h2>
 
-        <a href="index.html">
-            <button>Cadastrar Cliente</button>
-        </a>
-        <a href="produto.html">
-            <button>Cadastrar Produtos</button>
+        <!-- Botão de login, visível apenas quando o usuário não está logado -->
+        <a href="login.html" id="login-btn">
+            <button>Login</button>
         </a>
 
+        <!-- Botões de cadastro, ocultos até que o usuário faça login -->
+        <div id="cadastro-container" style="display: none;">
+            <a href="index.html">
+                <button>Cadastrar Cliente</button>
+            </a>
+            <a href="produto.html">
+                <button>Cadastrar Produtos</button>
+            </a>
+        </div>
+
+        <button id="logout-btn" style="display: none;" onclick="logout()">Sair</button>
     </div>
+
+    <script src="../js/main.js"></script>
 </body>
 </html>
