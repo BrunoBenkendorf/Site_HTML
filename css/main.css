@@ -1,4 +1,3 @@
-
 html, body {
     height: 100%;
     margin: 0;
@@ -25,13 +24,11 @@ body {
     width: 100%;
 }
 
-
 h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
-
 
 button {
     background-color: #5cb85c;
@@ -55,6 +52,49 @@ button:hover {
 
 a {
     text-decoration: none;
+}
+.user-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-container input {
+    width: 250px;
+    line-height: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 0px 50px 0px 20px;
+    border-radius: 15px;
+}
+
+.user-container i {
+    position: absolute;
+    right: 100px; 
+}
+.password-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-container input {
+    width: 250px;
+    line-height: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 0px 50px 0px 20px;
+    border-radius: 15px;
+}
+
+
+.password-container i {
+    position: absolute;
+    right: 100px; 
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
