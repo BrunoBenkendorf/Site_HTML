@@ -58,6 +58,7 @@ O projeto contém uma pasta `imagens/` dentro do diretório `css/`, onde estão 
 Abaixo estão algumas capturas de tela do projeto:
 
 - ![Página Inicial](css/imagens/home.png)
+  
 - ![Login](css/imagens/login.png)
 - ![Cadastro de Cliente](css/imagens/cadastro_cliente.png)
 - ![Cadastro de Produto](css/imagens/cadastro_produto1.png)
